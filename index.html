@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+		<meta charset="utf-8">
+		<title>Welcome to NexSeed Okinawa</title>
+		<link rel="stylesheet" type="text/css" href="CSS/reset.css">
+		<!-- / で、同じファイル内のCSSファイルにあるresetを指定 -->
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+	<!-- headerここから -->
+	<header class="fixed"> 
+		<!-- headerを上部に固定 -->
+		<!-- header 左側 -->
+		<div class="icon">
+			<img src="img/seedkun.png">
+			<span class="name"><strong>Seed</strong>kun</span>
+		</div>
+		<!-- header　右側 -->
+			<ul class="header-right">
+				<li>新規登録</li>
+				<li>ログイン</li>
+			</ul>		
+	</header>
+	<!-- header ここまで -->
+	<!-- WELCOME ここから -->
+	<main class="welcome" id="margin-for-fixed">
+		<h1 class="titlemain">Welcome to NexSeed Okinawa</h1>
+		<ul class="guideline">
+			<li>Be Athlete</li>
+			<li>Go World</li>
+			<li>Enjoy Everything</li>
+		</ul>
+		<div class="btn-group">
+			<button class="btn register">新規登録</button>
+			<button class="btn login">ログイン</button>
+		</div>
+
+	</main>
+	<!-- WELCOME ここまで -->
+	<!----- curriculum ここから -->
+	<main class="curriculum">
+		<h2 class="sub-title">NexSeed Life</h2>
+		<ul class="img-box">
+			<li><img src="img/programming.jpg"><span>Programming</span></li>
+			<li><img src="img/english.jpg"><span>English</span></li>
+			<li><img src="img/enjoy.jpg"><span>Enjoy</span></li>
+		</ul>
+	</main>
+	<!----- curriculum ここまで --> 
+	
+	<!----フォームここから -->
+	<aside class="contact2">
+		<h2 class="sub-title">Contact Us</h2>
+		<form>
+			<!-- テキスト　名前 -->
+			<!-- <div  style="display:inline-flex"> -->
+			<div class="form-group">
+				<input type="text" name="" class="input-field" class="left" placeholder="お名前">
+			</div>
+			<!-- テキスト　メールアドレス -->
+
+			<div class="form-group">
+				<input type="text" name="" class="input-field" placeholder="メールアドレス">
+			</div><!-- </div> -->
+			<!-- テキスト　お問い合わせ -->
+			<div class="form-group inquiry" >			
+				<textarea  type="text" name=""class="input-field" placeholder="お問い合わせ内容"></textarea>
+			</div>
+			
+			<!-- ボタン -->
+			<div class="form-group">
+				<button class="button" type="submit">submit</button>
+			</div>
+		</form>
+	</aside>
+	<!-- フォーム HW ここまで -->
+	<!----フォーム class ここから -->
+	<aside class="contact2">
+		<h2 class="sub-title">Contact ME</h2>
+		<!-- form -->
+		<form>
+			 <div class="form">
+			 	<!-- left -->
+			 	<div class="form-left">
+			 		<fieldset>
+			 			<input type="text" class="name" placeholder="お名前">
+			 		</fieldset>
+			 		<fieldset>
+			 			<input type="email" class="email" placeholder="メールアドレス">
+			 		</fieldset>
+			 	</div>
+			 	<!-- right -->
+				<div class="form-right">
+					<textarea class="inquiry2" placeholder="お問い合わせ内容"></textarea>
+				</div>
+			</div>
+			<button>submit</button>
+		</form>
+	</aside>
+</body>
+
