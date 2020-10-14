@@ -280,3 +280,32 @@ margin-bottom: 20px;
 .contact2 .form{
 	margin:50px 0 40px;
 }
+/*contact ここまで*/
+/*footer ここから*/
+
+footer{
+	background-color: #233f51;
+	color:#fff;
+	font-size: 18px;
+	padding:5px 0;
+	/*5px(top5 right0 bottom5 left0)
+	topとbottomのみ5px、left rightは０*/
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+footer .footer-right{
+	margin-right:80px;
+}
+
+
+
+
+
+
+
+
+
+
+
