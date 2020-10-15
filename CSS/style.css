@@ -327,7 +327,8 @@ footer .footer-right{
 /*タブレット*/
 @media screen and (max-width: 960px){
 	body{
-		min-width:700px;
+		min-width:850px;
+	
 	}
 /*curriculum*/
 	.img-box{
@@ -344,11 +345,34 @@ footer .footer-right{
 	}
 /*curriculum　ここまで*/
 
+/*contactここから*/
+.contact2{
+	height:450px;
 }
+.contact2 .form {
+		flex-flow:column nowrap;
+		margin:30px 0;
+	}
+.form .name, .form .email, .form .inquiry2{
+	width: 80%;
+	}
+.form .name, .form .email{
+	height: 50px;
+}
+.form .inquiry2{
+	height:120px;
+	margin-top:22px;
+}
+.form-left{
+	margin-right:0px;
+}
+.contact2 button{
+	font-size:30px;
+	padding:5px 40px;
+}
+	/*contact ここまで*/
 
-
-
-
+}
 
 
 
@@ -357,6 +381,7 @@ footer .footer-right{
 @media screen and (max-width: 480px){
 	body{
 		min-width:375px;
+		max-width: 480px;
 	}
 	/*header*/
 	.icon {
@@ -423,6 +448,10 @@ footer .footer-right{
 	/*curriculum　ここまで*/
 
 	/*contact*/
+
+	.contact2{
+	height:350px;
+}
 	.contact2 .form {
 		flex-flow:column nowrap;
 		margin:30px 0;
