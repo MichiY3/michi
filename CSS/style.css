@@ -418,11 +418,23 @@ footer .footer-right{
 .form-left{
 	margin-right:0px;
 }
-
-
-
 	/*contact ここまで*/
-	/*footer*/
+
+	/*footerここから*/
+footer{
+	display:flex;
+	justify-content: center;
+}
+footer .icon{
+	display:none;
+}
+footer .footer-right{
+	margin-right:0;
+}
+
+
+
+	/*footer ここまで*/
 
 
 }
