@@ -310,8 +310,25 @@ footer .footer-right{
 }
 
 /*タブレット*/
-/*@media screen and (max-width: 960px){
-}*/
+@media screen and (max-width: 960px){
+	body{
+		min-width:700px;
+	}
+/*curriculum*/
+	.img-box{
+		flex-flow:column nowrap;
+	}
+	.img-box li{
+		display:flex;
+		flex-wrap:wrap;
+		align-items:center;
+		margin-right:0;
+	}
+	/*curriculum　ここまで*/
+
+
+}
+
 
 /*スマートフォン*/
 @media screen and (max-width: 480px){
@@ -358,7 +375,9 @@ footer .footer-right{
 	.btn:first-child{
 		margin-top: 0;
 	}
+	/*welcomeここまで*/
 
+	
 	/*curriculum*/
 	.img-box{
 		flex-flow:column nowrap;
@@ -368,7 +387,20 @@ footer .footer-right{
 		flex-direction: column;
 		align-items:center;
 		margin-right:0;
+		margin-top:30px; 
 	}
+	.img-box li:first-child{
+		margin-top:0px;
+	}
+
+	.img-box li span{
+		font-size:16px;
+		margin-top:20px;
+	}
+	/*curriculum　ここまで*/
+
+
+
 	/*contact*/
 	/*footer*/
 
