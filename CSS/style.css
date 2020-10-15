@@ -243,6 +243,7 @@ textarea {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	text-align: center;
 
 }
 
@@ -399,9 +400,28 @@ footer .footer-right{
 	}
 	/*curriculum　ここまで*/
 
-
-
 	/*contact*/
+	.contact2 .form {
+		flex-flow:column nowrap;
+		margin:30px 0;
+	}
+.form .name, .form .email, .form .inquiry2{
+	width: 80%;
+	}
+.form .name, .form .email{
+	height: 30px;
+}
+.form .inquiry2{
+	height:50px;
+	margin-top: 20px;
+}
+.form-left{
+	margin-right:0px;
+}
+
+
+
+	/*contact ここまで*/
 	/*footer*/
 
 
