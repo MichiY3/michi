@@ -281,7 +281,21 @@ margin-bottom: 20px;
 .contact2 .form{
 	margin:50px 0 40px;
 }
+
+.contact2 button{
+	background-color: #1dace0;
+	color:#fff;
+	border:3px solid #1dace0;
+	border-radius: 10px;
+	font-size:24px;
+	padding:15px 30px;
+	box-sizing: border-box;
+	/*これを指定することで、*/
+}
+
 /*contact ここまで*/
+
+
 /*footer ここから*/
 
 footer{
@@ -425,6 +439,10 @@ footer .footer-right{
 }
 .form-left{
 	margin-right:0px;
+}
+.contact2 button{
+	font-size:20px;
+	padding:5px 40px;
 }
 	/*contact ここまで*/
 
