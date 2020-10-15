@@ -333,6 +333,7 @@ footer .footer-right{
 	.img-box{
 		display:flex;
 		flex-wrap:wrap;
+		justify-content: space-around;
 		margin-top: 30px;
 
 	}
@@ -341,12 +342,11 @@ footer .footer-right{
 		margin-right:0;
 		margin-top: 30px;
 	}
-	.img-box li:first-child{
-		margin-right:50px;
-	}
+/*curriculum　ここまで*/
+
 }
 
-/*curriculum　ここまで*/
+
 
 
 
